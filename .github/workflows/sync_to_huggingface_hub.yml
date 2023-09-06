@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://jaiswalsuraj:$HF_TOKEN@huggingface.co/spaces/jaiswalsuraj/K-Nearest-Neighbour-app main
+        run: git push --force https://jaiswalsuraj:$HF_TOKEN@huggingface.co/spaces/jaiswalsuraj/K-Nearest-Neighbour-app main
